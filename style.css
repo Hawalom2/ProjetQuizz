@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('quizzformat/image/img-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.logo img{
+    height: 75px;
+    margin:0px -13px 0px 16px;
+}
+.nav{
+    background-color: #042425;
+    height: 80px;
+}
+.titre{
+    text-align: center;
+    color: white;
+    font-size: 39px;
+    margin:6px 0px 0px 361px;
+}
+
+@media screen and (min-width: 667px) and  (max-width: 1024px){
+    body{
+        background-size: 190%;
+    }
+    .titre{
+        margin-top: -6%;
+    }
+}
+
+@media screen and (min-width: 320px) and  (max-width: 667px){
+    body{
+        background-size: 280%;
+    }
+
+    .titre{
+        margin-top: -11%;
+        font-size: 1.5em;
+    }
+}
+#brand-logo {
+  font-size: 34px;
+}
+
+#app-navbar {
+  background: linear-gradient(120deg, #00e4d0, #5983e8);
+}
